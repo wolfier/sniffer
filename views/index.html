@@ -1,0 +1,153 @@
+<html>
+<head>
+	<title>Leaflet Demo</title>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<link rel="stylesheet" href="../public/global.css" />
+</head>
+<body>
+	<div id="map"></div>
+	<div class="options">
+		<button type="button" onclick="display('type','Dog')">Dog</button>
+		<button type="button" onclick="display('type','Cat')">Cat</button>
+		<button type="button" onclick="display('sex','Male')">Male</button>
+		<button type="button" onclick="display('sex','Female')">Female</button>
+		<button type="button" onclick="display('All')">All</button>
+	</div>
+
+</body>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../public/l.control.geosearch.js"></script>
+<script src="../public/l.geosearch.provider.openstreetmap.js"></script>	
+<script>
+
+	var geosearch = new L.GeoSearch.Provider.OpenStreetMap();
+	//Global map
+	var map;
+	//Markers array
+	var markers = [];
+
+	window.onload = function () {
+		//Create a map centered at Austin with a zoom level of 11
+		map = L.map('map').setView([30.3077609,-97.6534014], 11);
+
+		//Add a tile layer provided by OpenStreetMap with default values s, z, x, and y to tbe map
+		//Limit zoom action between 11 and 15
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, <a href="https://data.austintexas.gov/">data.austintexas.gov</href>',
+			minZoom: 11,
+			maxZoom: 15
+		}).addTo(map);
+
+		//Set default markers as all the JSON entries
+		display('All');
+
+		//Create a custom Control that builds the correct service url and parses the retrieved data into an uniformal format
+		//Customize the showMarker option to display a one mile radius instead
+		new L.Control.GeoSearch({
+			provider: new L.GeoSearch.Provider.OpenStreetMap(),
+			showMarker: true
+		}).addTo(map);
+
+		//Create custom Control to hold information regarding the map
+		var info = L.control();
+		info.onAdd = function (map) {
+			//Create a div with a class "info"
+		    this._div = L.DomUtil.create('div', 'info');
+		    this._div.innerHTML = '<h4>Austin Animal Center Stray Map</h4> This map shows all stray cats and dogs that are currently listed in AAC\'s database for no longer than a week. Most will be located at AAC, but some will be held by citizens. Click on markers for more information regarding the stray. Please also check <a href=\'http://www.austintexas.gov/department/lost-found-pet\'> http://www.austintexas.gov/department/lost-found-pet</a> for further assistance.<p>Below are some tags to help you filter the map as well as an address bar to search for nearby strays within a one mile radius.</p><p>The data used in this map comes from the <a href="https://data.austintexas.gov/">Austin\'s Data Portal</a>, the open government resource.</p>'
+		    return this._div;
+		};
+
+		//Add custom control to map
+		info.addTo(map);
+	}
+
+	/* Function: display
+	   Parameter: attr, attribute name, e.g. Sex, Type.
+	   			  value, value of the attribute
+   	   Display queried entries on the map along with popup information*/
+
+   	 var pound=[];
+
+	function display(attr, value) {
+		// Clears the map of all markers and remove all markers within the markers array
+		if(markers.length != 0){
+			for(var i = 0; i < markers.length; i++){
+				map.removeLayer(markers[i]);
+			}
+			markers.length = 0;
+		}
+		//Load JSON-encoded data from Austin's data protal and plot all revelent markers
+		//Can be optimized through data quieries instead of client side processing
+		$.getJSON('https://data.austintexas.gov/api/views/kz4x-q9k5/rows.json?accessType=DOWNLOAD', function(data) {
+			pound = data.data;
+			if(attr == 'All'){
+				//Loop through all entries and search for valid entries to display
+				for (var i = 0; i < pound.length; i++) {
+
+					var addr = JSON.parse( data.data[i][9][0] );
+					addr = addr["address"] + " " + addr["city"] + " " + addr["state"]  + " " + addr["zip"];
+
+					(function(i) {
+
+						$.ajax({
+							url: 'http://nominatim.openstreetmap.org/search?q=' + addr + "&format=json",
+							dataType: 'json',
+							success: function (resp) {
+								if(resp.length != 0){
+									markers.push( L.marker([ resp[0]['lat'],resp[0]['lon'] ])
+										.bindPopup("<img src='http://www.petharbor.com/get_image.asp?RES=Detail&ID=" + data.data[i][8] + "&LOCATION=ASTN'; width=266px; height=200px;/> <p><strong>ID: </strong> " + data.data[i][8] + "<br><strong>Age: </strong>" + data.data[i][16] + "<br><strong>Sex: </strong>" + data.data[i][15] + "<br><strong>Breed: </strong>" + data.data[i][13] + "</p>")
+										.addTo(map))
+								}
+							},
+							error: function (data) {
+								console.log("failed")
+							}
+						});
+					})(i)
+				}
+			}
+			// else if(attr == 'type'){
+			// 	for (var i = 0; i < len; i++) {
+			// 		//Match if value is equal
+			// 		//e.g. if "Dog" equals "Dog"
+			// 		if(data.data[i][12] == value){
+			// 			markers.push( L.marker([data.data[i][9][1], data.data[i][9][2] ])
+			// 				.bindPopup("<img src='http://www.petharbor.com/get_image.asp?RES=Detail&ID=" + data.data[i][8] + "&LOCATION=ASTN'; width=266px; height=200px;/> <p><strong>ID: </strong> " + data.data[i][8] + "<br><strong>Age: </strong>" + data.data[i][16] + "<br><strong>Sex: </strong>" + data.data[i][15] + "<br><strong>Breed: </strong>" + data.data[i][13] + "</p>")
+			// 				.addTo(map)
+			// 			);
+			// 		}
+			// 	}
+			// }
+			// else if(attr == 'sex'){
+			// 	for (var i = 0; i < len; i++) {
+			// 		//Match if value is within the data
+			// 		//e.g. if Male was in Neutered Male a match occurs
+			// 		if(data.data[i][15].indexOf(value) > -1){
+			// 			markers.push( L.marker([data.data[i][9][1], data.data[i][9][2] ])
+			// 				.bindPopup("<img src='http://www.petharbor.com/get_image.asp?RES=Detail&ID=" + data.data[i][8] + "&LOCATION=ASTN'; width=266px; height=200px;/> <p><strong>ID: </strong> " + data.data[i][8] + "<br><strong>Age: </strong>" + data.data[i][16] + "<br><strong>Sex: </strong>" + data.data[i][15] + "<br><strong>Breed: </strong>" + data.data[i][13] + "</p>")
+			// 				.addTo(map)
+			// 			);
+			// 		}
+			// 	}
+			// }
+
+		});
+	}
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

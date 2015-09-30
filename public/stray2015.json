@@ -1,0 +1,878 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "kz4x-q9k5",
+      "name" : "Austin Animal Center Stray Map",
+      "attribution" : "Austin Animal Center",
+      "attributionLink" : "http://austinanimalcenter.org",
+      "averageRating" : 0,
+      "category" : "Government",
+      "createdAt" : 1403643190,
+      "description" : "This map shows all stray cats and dogs that are currently listed in AAC's database for no longer than a week. Most will be located at AAC, but some will be held by citizens, which will be indicated on the \"At AAC\" column. AAC will post an image as soon as possible, which can be accessed by clicking the link in the \"Image Link\" column. Please also check http://www.austintexas.gov/department/lost-found-pet for more information.",
+      "displayType" : "table",
+      "downloadCount" : 560,
+      "indexUpdatedAt" : 1443451818,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8435392,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1405459901,
+      "publicationGroup" : 1627749,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1443450865,
+      "rowsUpdatedBy" : "p3dk-w2wy",
+      "state" : "normal",
+      "tableId" : 1650404,
+      "totalTimesRated" : 0,
+      "viewCount" : 1734,
+      "viewLastModified" : 1405461817,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 157448443,
+        "name" : "Animal ID",
+        "dataTypeName" : "text",
+        "fieldName" : "animal_id",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20447930,
+        "width" : 98,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "A468026",
+          "null" : 0,
+          "largest" : "A712577"
+        },
+        "format" : { }
+      }, {
+        "id" : 157448444,
+        "name" : "Found Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 2,
+        "renderTypeName" : "location",
+        "tableColumnId" : 20447933,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : {
+            "longitude" : "-97.818541",
+            "latitude" : "30.079155",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78610\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "human_address" : "{\"address\":\"WOODWARD ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "human_address" : "{\"address\":\"7205 E MEADOW BEND\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78724\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-97.772873",
+              "latitude" : "30.187786",
+              "human_address" : "{\"address\":\"6808 S IH35\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78745\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-97.732706",
+              "latitude" : "30.349869",
+              "human_address" : "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78757\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-97.849046",
+              "latitude" : "30.184608",
+              "human_address" : "{\"address\":\"9911 BRODIE LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78748\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-97.670954",
+              "latitude" : "30.314695",
+              "human_address" : "{\"address\":\"6803 HANOVER LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-97.858065",
+              "latitude" : "30.222108",
+              "human_address" : "{\"address\":\"5500 CAMP FIRE TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-97.79501",
+              "latitude" : "30.22958",
+              "human_address" : "{\"address\":\"4505 FRONTIER VALLEY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-97.715023",
+              "latitude" : "30.234873",
+              "human_address" : "{\"address\":\"1500 CROSSING PLACE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-97.696967",
+              "latitude" : "30.196834",
+              "human_address" : "{\"address\":\"7412 S GLENN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-97.763268",
+              "latitude" : "30.187174",
+              "human_address" : "{\"address\":\"6600 ELM CREEK DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-97.87017",
+              "latitude" : "30.158477",
+              "human_address" : "{\"address\":\"3704 EBONY HOLLOW CV\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78739\"}"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "human_address" : "{\"address\":\"18100 MAXA DR MANOR\",\"city\":\"\",\"state\":\"\",\"zip\":\"78653\"}"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "human_address" : "{\"address\":\"920 WATER ST\",\"city\":\"\",\"state\":\"\",\"zip\":\"78621\"}"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "human_address" : "{\"address\":\"8805 N PLAZA\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "human_address" : "{\"address\":\"PLEASANT VALLEY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-97.69553",
+              "latitude" : "30.376702",
+              "human_address" : "{\"address\":\"1015 N MEADOWS DRIVE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78758\"}"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-97.703051",
+              "latitude" : "30.332223",
+              "human_address" : "{\"address\":\"\",\"city\":\"BLESSING AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-97.675352",
+              "latitude" : "30.378511",
+              "human_address" : "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "human_address" : "{\"address\":\"RICHARDINE AVE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : "-97.76448",
+              "latitude" : "30.243217",
+              "human_address" : "{\"address\":\"\",\"city\":\"N LAMAR B R REYNOLDS AUSTIN\",\"state\":\"\",\"zip\":\"78704\"}"
+            }
+          } ]
+        },
+        "format" : {
+          "view" : "address",
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 157448445,
+        "name" : "At AAC",
+        "dataTypeName" : "text",
+        "fieldName" : "at_aac",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20677186,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "No (contact for more info)",
+          "null" : 0,
+          "largest" : "Yes (come to the shelter)",
+          "top" : [ {
+            "count" : 20,
+            "item" : "No (contact for more info)"
+          }, {
+            "count" : 19,
+            "item" : "Yes (come to the shelter)"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 157448446,
+        "name" : "Intake Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "intake_date",
+        "position" : 4,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 20447932,
+        "width" : 89,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "2015-09-19T00:00:00",
+          "null" : 0,
+          "largest" : "2015-09-25T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-09-19T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2015-09-20T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2015-09-21T00:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2015-09-22T00:00:00"
+          }, {
+            "count" : 16,
+            "item" : "2015-09-23T00:00:00"
+          }, {
+            "count" : 15,
+            "item" : "2015-09-24T00:00:00"
+          }, {
+            "count" : 14,
+            "item" : "2015-09-25T00:00:00"
+          } ]
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 157448447,
+        "name" : "Type",
+        "dataTypeName" : "text",
+        "fieldName" : "type",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20447931,
+        "width" : 56,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "Cat",
+          "null" : 0,
+          "largest" : "Dog",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Dog"
+          }, {
+            "count" : 19,
+            "item" : "Cat"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 157448448,
+        "name" : "Looks Like",
+        "dataTypeName" : "text",
+        "fieldName" : "looks_like",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20447934,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "Alaskan Husky Mix",
+          "null" : 0,
+          "largest" : "Weimaraner",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Chihuahua Shorthair Mix"
+          }, {
+            "count" : 19,
+            "item" : "Weimaraner"
+          }, {
+            "count" : 18,
+            "item" : "Domestic Shorthair Mix"
+          }, {
+            "count" : 17,
+            "item" : "Siamese Mix"
+          }, {
+            "count" : 16,
+            "item" : "Labrador Retriever Mix"
+          }, {
+            "count" : 15,
+            "item" : "Boxer Mix"
+          }, {
+            "count" : 14,
+            "item" : "Australian Cattle Dog Mix"
+          }, {
+            "count" : 13,
+            "item" : "Pit Bull Mix"
+          }, {
+            "count" : 12,
+            "item" : "Domestic Longhair Mix"
+          }, {
+            "count" : 11,
+            "item" : "Manchester Terrier Mix"
+          }, {
+            "count" : 10,
+            "item" : "Harrier Mix"
+          }, {
+            "count" : 9,
+            "item" : "Australian Cattle Dog/Staffordshire"
+          }, {
+            "count" : 8,
+            "item" : "Australian Cattle Dog/Labrador Retriever"
+          }, {
+            "count" : 7,
+            "item" : "American Pit Bull Terrier Mix"
+          }, {
+            "count" : 6,
+            "item" : "German Shepherd Mix"
+          }, {
+            "count" : 5,
+            "item" : "Great Pyrenees Mix"
+          }, {
+            "count" : 4,
+            "item" : "Miniature Pinscher Mix"
+          }, {
+            "count" : 3,
+            "item" : "German Shepherd"
+          }, {
+            "count" : 2,
+            "item" : "Papillon/Chihuahua Longhair"
+          }, {
+            "count" : 1,
+            "item" : "Basset Hound Mix"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 157448449,
+        "name" : "Color",
+        "dataTypeName" : "text",
+        "fieldName" : "color",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20447935,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "Black",
+          "null" : 0,
+          "largest" : "Yellow",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Black/Brown"
+          }, {
+            "count" : 19,
+            "item" : "Orange Tabby"
+          }, {
+            "count" : 18,
+            "item" : "Orange Tabby/White"
+          }, {
+            "count" : 17,
+            "item" : "White"
+          }, {
+            "count" : 16,
+            "item" : "Tortie"
+          }, {
+            "count" : 15,
+            "item" : "Calico"
+          }, {
+            "count" : 14,
+            "item" : "Lynx Point"
+          }, {
+            "count" : 13,
+            "item" : "Blue Tabby/White"
+          }, {
+            "count" : 12,
+            "item" : "Black/White"
+          }, {
+            "count" : 11,
+            "item" : "Black"
+          }, {
+            "count" : 10,
+            "item" : "Cream Tabby"
+          }, {
+            "count" : 9,
+            "item" : "Brown/White"
+          }, {
+            "count" : 8,
+            "item" : "Blue"
+          }, {
+            "count" : 7,
+            "item" : "Blue/White"
+          }, {
+            "count" : 6,
+            "item" : "White/Black"
+          }, {
+            "count" : 5,
+            "item" : "Black/Tan"
+          }, {
+            "count" : 4,
+            "item" : "Brown Tabby"
+          }, {
+            "count" : 3,
+            "item" : "Brown Tabby/White"
+          }, {
+            "count" : 2,
+            "item" : "Tricolor"
+          }, {
+            "count" : 1,
+            "item" : "Blue Tabby"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 157448450,
+        "name" : "Sex",
+        "dataTypeName" : "text",
+        "fieldName" : "sex",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20447936,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "Intact Female",
+          "null" : 0,
+          "largest" : "Unknown",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Intact Male"
+          }, {
+            "count" : 19,
+            "item" : "Neutered Male"
+          }, {
+            "count" : 18,
+            "item" : "Intact Female"
+          }, {
+            "count" : 17,
+            "item" : "Spayed Female"
+          }, {
+            "count" : 16,
+            "item" : "Unknown"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 157448451,
+        "name" : "Age",
+        "dataTypeName" : "text",
+        "fieldName" : "age",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20447937,
+        "width" : 113,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : "0 years",
+          "null" : 0,
+          "largest" : "9 years",
+          "top" : [ {
+            "count" : 20,
+            "item" : "4 months"
+          }, {
+            "count" : 19,
+            "item" : "2 years"
+          }, {
+            "count" : 18,
+            "item" : "3 weeks"
+          }, {
+            "count" : 17,
+            "item" : "6 weeks"
+          }, {
+            "count" : 16,
+            "item" : "1 year"
+          }, {
+            "count" : 15,
+            "item" : "4 weeks"
+          }, {
+            "count" : 14,
+            "item" : "0 years"
+          }, {
+            "count" : 13,
+            "item" : "5 weeks"
+          }, {
+            "count" : 12,
+            "item" : "9 years"
+          }, {
+            "count" : 11,
+            "item" : "4 years"
+          }, {
+            "count" : 10,
+            "item" : "11 months"
+          }, {
+            "count" : 9,
+            "item" : "3 years"
+          }, {
+            "count" : 8,
+            "item" : "5 years"
+          }, {
+            "count" : 7,
+            "item" : "3 months"
+          }, {
+            "count" : 6,
+            "item" : "5 months"
+          }, {
+            "count" : 5,
+            "item" : "6 years"
+          }, {
+            "count" : 4,
+            "item" : "2 months"
+          }, {
+            "count" : 3,
+            "item" : "1 day"
+          }, {
+            "count" : 2,
+            "item" : "8 years"
+          }, {
+            "count" : 1,
+            "item" : "7 years"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 157448452,
+        "name" : "Image Link",
+        "dataTypeName" : "url",
+        "fieldName" : "image",
+        "position" : 10,
+        "renderTypeName" : "url",
+        "tableColumnId" : 20447938,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 164,
+          "smallest" : {
+            "url" : "http://www.petharbor.com/pet.asp?uaid=ASTN.A468026"
+          },
+          "null" : 0,
+          "largest" : {
+            "url" : "http://www.petharbor.com/pet.asp?uaid=ASTN.A712577"
+          }
+        },
+        "format" : {
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Additional Information" : {
+            "Frequency" : "As Needed",
+            "Department" : "Animal Services"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "p3dk-w2wy",
+        "displayName" : "Austin Animal Center",
+        "profileImageUrlLarge" : "/api/users/p3dk-w2wy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/p3dk-w2wy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/p3dk-w2wy/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "Austin Animal Center",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards" ]
+      },
+      "privateMetadata" : {
+        "contactEmail" : ""
+      },
+      "query" : { },
+      "rights" : [ "read", "write", "add", "delete", "grant", "add_column", "remove_column", "update_column", "update_view", "delete_view" ],
+      "tableAuthor" : {
+        "id" : "p3dk-w2wy",
+        "displayName" : "Austin Animal Center",
+        "profileImageUrlLarge" : "/api/users/p3dk-w2wy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/p3dk-w2wy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/p3dk-w2wy/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "Austin Animal Center",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "cat", "dog", "pet", "stray", "austin animal center", "no kill", "data", "open government" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1691622, "DF6F6121-82ED-4912-8117-6569CE2F347C", 1691622, 1443449014, "708639", 1443449014, "708639", null, "A706199", [ "{\"address\":\"1901 ONION CREEK\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78748\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Dog", "American Pit Bull Terrier Mix", "Chocolate/White", "Neutered Male", "5 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A706199", null ] ]
+, [ 1691635, "20A55EE6-9E09-49FB-A53C-4BE1620A035A", 1691635, 1443449014, "708639", 1443449014, "708639", null, "A712412", [ "{\"address\":\"620 AUSTIN\",\"city\":\"\",\"state\":\"\",\"zip\":\"78750\"}", null, null, null, true ], "No (contact for more info)", "2015-09-22T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Black/Tan", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712412", null ] ]
+, [ 1691636, "DB1363E9-1FF1-4DE0-8D99-20AC109A6E3D", 1691636, 1443449014, "708639", 1443449014, "708639", null, "A712413", [ "{\"address\":\"7011 RIBELIN RANCH DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78750\"}", null, null, null, true ], "No (contact for more info)", "2015-09-22T00:00:00", "Dog", "Labrador Retriever Mix", "Tan", "Intact Female", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712413", null ] ]
+, [ 1691637, "8BFA3901-18B3-419A-9C39-C74A57A9CCC2", 1691637, 1443449014, "708639", 1443449014, "708639", null, "A712416", [ "{\"address\":\"35 AUSTIN\",\"city\":\"\",\"state\":\"\",\"zip\":\"78753\"}", null, null, null, true ], "No (contact for more info)", "2015-09-22T00:00:00", "Dog", "Labrador Retriever Mix", "Tan", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712416", null ] ]
+, [ 1691638, "43FE1AD7-ACA1-43D1-9E30-53B6F5E916B7", 1691638, 1443449014, "708639", 1443449014, "708639", null, "A712420", [ "{\"address\":\"MONTOPOLIS\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Dog", "Chihuahua Shorthair Mix", "White/Brown", "Neutered Male", "4 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712420", null ] ]
+, [ 1691648, "D493BAE4-E4FD-4B54-9DFC-A7155C2B3325", 1691648, 1443449014, "708639", 1443449014, "708639", null, "A712494", [ "{\"address\":\"8222 SIGRID DR MANOR\",\"city\":\"\",\"state\":\"\",\"zip\":\"78653\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-23T00:00:00", "Dog", "Great Pyrenees Mix", "White", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712494", null ] ]
+, [ 1691650, "24C0E3A8-0FB7-4CC3-A746-FCBA4A35D000", 1691650, 1443449014, "708639", 1443449014, "708639", null, "A712464", [ "{\"address\":\"8300 N LAMAR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78758\"}", null, null, null, true ], "No (contact for more info)", "2015-09-23T00:00:00", "Dog", "Papillon/Chihuahua Longhair", "White/Brown", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712464", null ] ]
+, [ 1691652, "DCEAAB96-54FF-4EAF-BF11-5C4C47DC1D7D", 1691652, 1443449014, "708639", 1443449014, "708639", null, "A712492", [ "{\"address\":\"N LAMAR BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", null, null, null, true ], "No (contact for more info)", "2015-09-23T00:00:00", "Dog", "Shih Tzu Mix", "Black/White", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712492", null ] ]
+, [ 1691656, "BE1061A5-D2CA-4921-A6E6-BFF27A0501F9", 1691656, 1443449015, "708639", 1443449015, "708639", null, "A712516", [ "{\"address\":\"PLEASANT VALLEY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712516", null ] ]
+, [ 1691657, "69D16F71-B565-4A06-8720-E105602A6DB0", 1691657, 1443449015, "708639", 1443449015, "708639", null, "A712517", [ "{\"address\":\"PLEASANT VALLEY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712517", null ] ]
+, [ 1691658, "17B096F6-59CF-497D-A78D-280021AA90E8", 1691658, 1443449015, "708639", 1443449015, "708639", null, "A712518", [ "{\"address\":\"PLEASANT VALLEY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712518", null ] ]
+, [ 1691659, "192B207F-B3FD-4FCA-B2E7-2C1923108549", 1691659, 1443449015, "708639", 1443449015, "708639", null, "A712520", [ "{\"address\":\"LITTLE PEBBLE DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Dog", "Dachshund Mix", "Tricolor", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712520", null ] ]
+, [ 1691660, "9AE31636-6A1D-47FE-A3D0-111A4F3CBDA7", 1691660, 1443449015, "708639", 1443449015, "708639", null, "A712540", [ "{\"address\":\"MONTOPOLIS\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Dog", "Pug/Border Terrier", "Buff/Tan", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712540", null ] ]
+, [ 1691661, "1235F2D1-0DB9-4630-936E-85065B250312", 1691661, 1443449015, "708639", 1443449015, "708639", null, "A712545", [ "{\"address\":\"ANDERSON MILL RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78729\"}", null, null, null, true ], "No (contact for more info)", "2015-09-24T00:00:00", "Dog", "Labrador Retriever Mix", "White/Black", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712545", null ] ]
+, [ 1691662, "1CE1182B-7D0E-45A8-8892-7CD193FDF785", 1691662, 1443449015, "708639", 1443449015, "708639", null, "A712546", [ "{\"address\":\"CORRAN FERRY DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", null, null, null, true ], "No (contact for more info)", "2015-09-24T00:00:00", "Dog", "Alaskan Husky Mix", "White/Blue", "Intact Male", "9 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712546", null ] ]
+, [ 1691664, "1836C6DE-771B-46C0-BC80-6AC6038278DE", 1691664, 1443449015, "708639", 1443449015, "708639", null, "A712506", [ "{\"address\":\"CROWNOVER\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78725\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Brown/White", "Intact Male", "5 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712506", null ] ]
+, [ 1691665, "81192C1D-EB99-4CC9-8583-03371371157E", 1691665, 1443449015, "708639", 1443449015, "708639", null, "A712519", [ "{\"address\":\"SRINGDALE RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Dog", "Chihuahua Longhair Mix", "Tricolor", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712519", null ] ]
+, [ 1691667, "C65C6DF6-0EBC-4FD2-A6D6-194329E335A6", 1691667, 1443449015, "708639", 1443449015, "708639", null, "A712541", [ "{\"address\":\"18100 MAXA DR MANOR\",\"city\":\"\",\"state\":\"\",\"zip\":\"78653\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Torbie/White", "Intact Female", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712541", null ] ]
+, [ 1691668, "55F09F4E-605B-41EB-B00C-57FF5A51AB2D", 1691668, 1443449015, "708639", 1443449015, "708639", null, "A712542", [ "{\"address\":\"18100 MAXA DR MANOR\",\"city\":\"\",\"state\":\"\",\"zip\":\"78653\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Torbie", "Intact Female", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712542", null ] ]
+, [ 1691669, "D06A1FC8-8649-4FE8-A115-4BDE995791F9", 1691669, 1443449015, "708639", 1443449015, "708639", null, "A712543", [ "{\"address\":\"18100 MAXA DR MANOR\",\"city\":\"\",\"state\":\"\",\"zip\":\"78653\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange/White", "Intact Male", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712543", null ] ]
+, [ 1691670, "E7EE752C-AA31-411C-9EF0-DC61A7AC00E7", 1691670, 1443449015, "708639", 1443449015, "708639", null, "A712544", [ "{\"address\":\"18100 MAXA DR MANOR\",\"city\":\"\",\"state\":\"\",\"zip\":\"78653\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange", "Intact Male", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712544", null ] ]
+, [ 1691672, "8D985109-4F9F-433D-A3FE-10E9E0FD7AAC", 1691672, 1443449015, "708639", 1443449015, "708639", null, "A712527", [ "{\"address\":\"920 WATER ST\",\"city\":\"\",\"state\":\"\",\"zip\":\"78621\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby/White", "Intact Male", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712527", null ] ]
+, [ 1691673, "B568466C-C522-4882-8863-863EDFD6F713", 1691673, 1443449015, "708639", 1443449015, "708639", null, "A712528", [ "{\"address\":\"920 WATER ST\",\"city\":\"\",\"state\":\"\",\"zip\":\"78621\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712528", null ] ]
+, [ 1691674, "2A4065B8-6817-4B2F-B8FC-461B40EA064C", 1691674, 1443449015, "708639", 1443449015, "708639", null, "A712529", [ "{\"address\":\"920 WATER ST\",\"city\":\"\",\"state\":\"\",\"zip\":\"78621\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712529", null ] ]
+, [ 1691675, "335FBFFD-286F-46B2-928F-A6214FF87D28", 1691675, 1443449015, "708639", 1443449015, "708639", null, "A712530", [ "{\"address\":\"920 WATER ST\",\"city\":\"\",\"state\":\"\",\"zip\":\"78621\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712530", null ] ]
+, [ 1691679, "39E5AF51-CAB1-4E2D-83B9-DD086C927D4E", 1691679, 1443449015, "708639", 1443449015, "708639", null, "A712576", [ "{\"address\":\"RICHARDINE AVE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue Tabby/White", "Intact Male", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712576", null ] ]
+, [ 1691680, "8988B907-1C85-4DFB-AE08-168B772656C2", 1691680, 1443449015, "708639", 1443449015, "708639", null, "A712577", [ "{\"address\":\"RICHARDINE AVE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue/White", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712577", null ] ]
+, [ 1691686, "160BE189-B0DB-4E25-BC79-7D9F5C7A8CE2", 1691686, 1443449015, "708639", 1443449015, "708639", null, "A712555", [ "{\"address\":\"NUCKOLS CROSSING\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", null, null, null, true ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Miniature Poodle/Miniature Schnauzer", "White", "Intact Male", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712555", null ] ]
+, [ 1691804, "ED0E3546-28F3-4349-AE63-389C1C01EF72", 1691804, 1443450608, "708639", 1443450608, "708639", null, "A712554", [ "{\"address\":\"1521 E 21ST ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Siamese Mix", "Flame Point", "Intact Male", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712554", null ] ]
+, [ 1691812, "A427748A-AE3B-4B97-92AB-70E3BD1819DF", 1691812, 1443450608, "708639", 1443450608, "708639", null, "A712538", [ "{\"address\":\"13200 LIPTON LOOP\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78617\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Dog", "Pit Bull Mix", "Red/White", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712538", null ] ]
+, [ 1691813, "F21E35B0-E6E1-46D4-90BE-818DFE596F38", 1691813, 1443450608, "708639", 1443450608, "708639", null, "A712505", [ "{\"address\":\"2304 CORTA ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Tan/White", "Neutered Male", "8 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712505", null ] ]
+, [ 1691817, "2A6865F8-BDC9-43DC-ACC0-1E2AC91C6BAF", 1691817, 1443450608, "708639", 1443450608, "708639", null, "A712498", [ "{\"address\":\"\",\"city\":\"TAMAYO DR AUSTIN\",\"state\":\"\",\"zip\":\"78729\"}", null, null, null, false ], "No (contact for more info)", "2015-09-24T00:00:00", "Dog", "Labrador Retriever", "White/Tan", "Intact Male", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712498", null ] ]
+, [ 1691822, "7E69F524-4ED1-4179-B431-FBBAB781D6DB", 1691822, 1443450608, "708639", 1443450608, "708639", null, "A712387", [ "{\"address\":\"6803 HANOVER LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712387", null ] ]
+, [ 1691824, "9D37AB68-3632-478F-A122-0FDAAB36CC90", 1691824, 1443450608, "708639", 1443450608, "708639", null, "A712388", [ "{\"address\":\"6803 HANOVER LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby/White", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712388", null ] ]
+, [ 1691827, "C9E9789D-4690-4167-9052-9CE198401438", 1691827, 1443450608, "708639", 1443450608, "708639", null, "A712443", [ "{\"address\":\"3704 EBONY HOLLOW CV\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78739\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-23T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712443", null ] ]
+, [ 1691840, "11CAB31E-EC7A-42A7-893C-E00619C03A68", 1691840, 1443450608, "708639", 1443450608, "708639", null, "A712550", [ "{\"address\":\"15101 FM\",\"city\":\"\",\"state\":\"\",\"zip\":\"78660\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Siberian Husky Mix", "White", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712550", null ] ]
+, [ 1691845, "57A1DD6E-2D5A-492E-8A99-CBB414A7FDAE", 1691845, 1443450608, "708639", 1443450608, "708639", null, "A712391", [ "{\"address\":\"1500 CROSSING PLACE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue Tabby", "Unknown", "1 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712391", null ] ]
+, [ 1691851, "FB863436-6CAD-4AEC-9399-7E7852198EBF", 1691851, 1443450608, "708639", 1443450608, "708639", null, "A712536", [ "{\"address\":\"7309 LAZY CREEK DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78724\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Dog", "Labrador Retriever Mix", "Black", "Intact Female", "6 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712536", null ] ]
+, [ 1691853, "E41BCA1F-974E-4468-8659-61DD81773079", 1691853, 1443450608, "708639", 1443450608, "708639", null, "A712373", [ "{\"address\":\"5500 CAMP FIRE TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712373", null ] ]
+, [ 1691865, "B51F5F20-00E7-486F-A34D-76A25B3D5928", 1691865, 1443450608, "708639", 1443450608, "708639", null, "A712400", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Dog", "Pit Bull Mix", "White/Black", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712400", null ] ]
+, [ 1691866, "2311C6BB-E578-48B7-B708-6C70821B3F10", 1691866, 1443450608, "708639", 1443450608, "708639", null, "A712551", [ "{\"address\":\"\",\"city\":\"BLESSING AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Black Mouth Cur Mix", "Brown", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712551", null ] ]
+, [ 1691867, "83ED60D1-D243-4E12-9034-77D3C2FFECDC", 1691867, 1443450608, "708639", 1443450608, "708639", null, "A712398", [ "{\"address\":\"1054 SPRINGDALE RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712398", null ] ]
+, [ 1691869, "5E45F3D8-F206-45EF-8B9F-1EC50F1F376C", 1691869, 1443450608, "708639", 1443450608, "708639", null, "A712493", [ "{\"address\":\"509 RAMBLE LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78745\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-23T00:00:00", "Cat", "Domestic Longhair Mix", "Black", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712493", null ] ]
+, [ 1691879, "AA754AF7-197E-4122-A1D5-977D706A11EF", 1691879, 1443450608, "708639", 1443450608, "708639", null, "A712442", [ "{\"address\":\"3704 EBONY HOLLOW CV\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78739\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-23T00:00:00", "Cat", "Siamese Mix", "Lynx Point", "Intact Female", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712442", null ] ]
+, [ 1691880, "E8920E30-0EC5-492A-B36B-5BC14C8A7380", 1691880, 1443450608, "708639", 1443450608, "708639", null, "A712392", [ "{\"address\":\"1500 CROSSING PLACE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue Tabby", "Unknown", "1 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712392", null ] ]
+, [ 1691887, "44FC19FA-C37A-4F2C-81D0-E4B7397627B8", 1691887, 1443450608, "708639", 1443450608, "708639", null, "A712556", [ "{\"address\":\"2020 DRY SEASON TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78754\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue Tabby/White", "Spayed Female", "7 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712556", null ] ]
+, [ 1691892, "A05D22D8-E379-4A85-B0FA-E6D78EDD3664", 1691892, 1443450608, "708639", 1443450608, "708639", null, "A712385", [ "{\"address\":\"6803 HANOVER LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Tortie", "Intact Female", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712385", null ] ]
+, [ 1691893, "2EFC42D8-706E-4919-82A4-8B649913CD50", 1691893, 1443450608, "708639", 1443450608, "708639", null, "A712444", [ "{\"address\":\"3704 EBONY HOLLOW CV\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78739\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-23T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby/White", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712444", null ] ]
+, [ 1691894, "2A286909-2BF2-4BF8-AB9E-D21892459579", 1691894, 1443450608, "708639", 1443450608, "708639", null, "A712390", [ "{\"address\":\"1500 CROSSING PLACE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Female", "1 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712390", null ] ]
+, [ 1691899, "C198C1B3-02EB-4BCE-97A4-5619BFF3482E", 1691899, 1443450608, "708639", 1443450608, "708639", null, "A712549", [ "{\"address\":\"\",\"city\":\"BLESSING AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Beauceron Mix", "Black/Tan", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712549", null ] ]
+, [ 1691900, "D523644E-252D-4490-A059-3C3EC9656D79", 1691900, 1443450608, "708639", 1443450608, "708639", null, "A712561", [ "{\"address\":\"2509 CECIL DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Male", "5 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712561", null ] ]
+, [ 1691901, "AB6A5031-A480-4F01-B4C3-BB5710F6AD0B", 1691901, 1443450608, "708639", 1443450608, "708639", null, "A712381", [ "{\"address\":\"4505 FRONTIER VALLEY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Male", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712381", null ] ]
+, [ 1691909, "820BF4AF-70EB-4FAF-8BDE-8D3D9BAF86B6", 1691909, 1443450608, "708639", 1443450608, "708639", null, "A712439", [ "{\"address\":\"7720 TX\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78735\"}", null, null, null, false ], "No (contact for more info)", "2015-09-23T00:00:00", "Cat", "Domestic Shorthair Mix", "Tortie", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712439", null ] ]
+, [ 1691913, "16728853-A9F6-4070-81C2-884A2A8D6C46", 1691913, 1443450608, "708639", 1443450608, "708639", null, "A712440", [ "{\"address\":\"7720 TX\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78735\"}", null, null, null, false ], "No (contact for more info)", "2015-09-23T00:00:00", "Cat", "Domestic Shorthair Mix", "Tortie", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712440", null ] ]
+, [ 1691915, "85CDD7BF-F848-4A0C-BB1B-83B9CA431E0D", 1691915, 1443450608, "708639", 1443450608, "708639", null, "A712495", [ "{\"address\":\"11500 JOLLYVILLE RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78759\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-24T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue", "Spayed Female", "7 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712495", null ] ]
+, [ 1691917, "7AEE74A9-6A82-4ECC-B61F-E9C885E70400", 1691917, 1443450608, "708639", 1443450608, "708639", null, "A712396", [ "{\"address\":\"1054 SPRINGDALE RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Longhair Mix", "Brown Tabby/White", "Intact Male", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712396", null ] ]
+, [ 1691934, "F28FABEB-2420-41EC-AF6C-B2AC7492E264", 1691934, 1443450608, "708639", 1443450608, "708639", null, "A712386", [ "{\"address\":\"6803 HANOVER LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712386", null ] ]
+, [ 1691936, "E5975352-FBA1-4D2D-9E17-18F695D2076D", 1691936, 1443450864, "708639", 1443450864, "708639", null, "A712676", [ "{\"address\":\"COYOTE TRL\",\"city\":\"\",\"state\":\"\",\"zip\":\"78645\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Pit Bull Mix", "White/Brown", "Unknown", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712676", null ] ]
+, [ 1691937, "EB9A8959-6E2C-4060-B372-3C180BB1BB8F", 1691937, 1443450864, "708639", 1443450864, "708639", null, "A712406", [ "{\"address\":\"7412 S GLENN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.196834", "-97.696967", null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712406", null ] ]
+, [ 1691938, "18E478AE-BE62-47C5-A8A0-950D26E189B6", 1691938, 1443450864, "708639", 1443450864, "708639", null, "A712649", [ "{\"address\":\"34TH ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78705\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Medium Hair Mix", "Black/Tortie", "Intact Female", "7 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712649", null ] ]
+, [ 1691939, "A8D9A4BA-1C61-4327-8038-AD15B59CF309", 1691939, 1443450864, "708639", 1443450864, "708639", null, "A712650", [ "{\"address\":\"34TH ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78705\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Medium Hair Mix", "Black/Tortie", "Intact Female", "7 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712650", null ] ]
+, [ 1691940, "E715FAE2-ECDD-4519-9688-F2285879B59A", 1691940, 1443450864, "708639", 1443450864, "708639", null, "A712422", [ "{\"address\":\"6600 ELM CREEK DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.187174", "-97.763268", null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "White/Blue Tabby", "Intact Male", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712422", null ] ]
+, [ 1691941, "F9D4740E-D45D-45EB-BCCE-734843E0C113", 1691941, 1443450864, "708639", 1443450864, "708639", null, "A712625", [ "{\"address\":\"4011 GEMSTONE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.207224", "-97.844117", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Female", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712625", null ] ]
+, [ 1691942, "1415C80C-2B4F-48E0-943D-009F001C2858", 1691942, 1443450864, "708639", 1443450864, "708639", null, "A712716", [ "{\"address\":\"5205 EVANS DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78751\"}", "30.314912", "-97.718299", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange/White", "Neutered Male", "5 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712716", null ] ]
+, [ 1691943, "B8359B2C-4663-4D0D-B9F4-F04FCD7F9A47", 1691943, 1443450864, "708639", 1443450864, "708639", null, "A712711", [ "{\"address\":\"POINT N DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78724\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Black/White", "Neutered Male", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712711", null ] ]
+, [ 1691944, "197EEACB-7D44-4695-9B4F-37638A254F82", 1691944, 1443450864, "708639", 1443450864, "708639", null, "A712637", [ "{\"address\":\"ROUND MOUNTAIN\",\"city\":\"\",\"state\":\"\",\"zip\":\"78641\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Redbone Hound Mix", "Red", "Intact Female", "5 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712637", null ] ]
+, [ 1691945, "113530A6-C42D-410F-B270-F40CDDE7139A", 1691945, 1443450864, "708639", 1443450864, "708639", null, "A712683", [ "{\"address\":\"AIRPORT BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78722\"}", null, null, null, false ], "No (contact for more info)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Calico", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712683", null ] ]
+, [ 1691946, "C2454B1D-05E5-4F1D-B6B9-9E5BF96C4557", 1691946, 1443450864, "708639", 1443450864, "708639", null, "A712729", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.332223", "-97.703051", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Black/White", "Intact Female", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712729", null ] ]
+, [ 1691947, "CC1CC564-A709-4504-BC9F-3CB1B2688263", 1691947, 1443450864, "708639", 1443450864, "708639", null, "A712667", [ "{\"address\":\"LABRADOR BAY CT\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78732\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712667", null ] ]
+, [ 1691948, "0C7D19FC-64D2-4622-8812-EA20AD9552EC", 1691948, 1443450864, "708639", 1443450864, "708639", null, "A712752", [ "{\"address\":\"13021 LEGENDARY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.435753", "-97.730751", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712752", null ] ]
+, [ 1691949, "077A27C3-DB85-4636-BC33-AA9F7FC83E29", 1691949, 1443450864, "708639", 1443450864, "708639", null, "A712629", [ "{\"address\":\"1156 W CESAR CHAVEZ ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78703\"}", "30.26892", "-97.76045", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby/White", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712629", null ] ]
+, [ 1691950, "2C69CD24-1C5A-422E-978E-E9B9BD87C514", 1691950, 1443450864, "708639", 1443450864, "708639", null, "A712756", [ "{\"address\":\"3807 ARROW DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.203043", "-97.843086", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Medium Hair Mix", "Calico", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712756", null ] ]
+, [ 1691951, "1186189D-4870-42ED-A166-26223715E270", 1691951, 1443450864, "708639", 1443450864, "708639", null, "A712760", [ "{\"address\":\"3807 ARROW DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.203043", "-97.843086", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Medium Hair Mix", "Orange Tabby", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712760", null ] ]
+, [ 1691952, "DA1AC9A7-1D3A-470F-B333-C29538FA1A99", 1691952, 1443450864, "708639", 1443450864, "708639", null, "A712624", [ "{\"address\":\"4011 GEMSTONE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.207224", "-97.844117", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712624", null ] ]
+, [ 1691953, "39559C88-0B98-4E8E-A23E-2A083B28852A", 1691953, 1443450864, "708639", 1443450864, "708639", null, "A712652", [ "{\"address\":\"4550 MUELLER BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78723\"}", "30.296834", "-97.708058", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Dachshund Mix", "Black/Tan", "Intact Female", "4 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712652", null ] ]
+, [ 1691954, "091709B1-4058-41E9-927D-223D4497DD35", 1691954, 1443450864, "708639", 1443450864, "708639", null, "A712654", [ "{\"address\":\"MAPLE HOLLOW TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78728\"}", null, null, null, false ], "No (contact for more info)", "2015-09-26T00:00:00", "Dog", "Rat Terrier/Cardigan Welsh Corgi", "Tricolor", "Neutered Male", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712654", null ] ]
+, [ 1691955, "8AD8C7A3-09AE-4107-B80C-C61B20E4EB87", 1691955, 1443450864, "708639", 1443450864, "708639", null, "A712702", [ "{\"address\":\"3709 VINELAND DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78722\"}", "30.289393", "-97.710837", null, false ], "No (contact for more info)", "2015-09-26T00:00:00", "Dog", "Rat Terrier Mix", "Brown/Black", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712702", null ] ]
+, [ 1691956, "BFF154DE-EBA0-40AB-8E8B-B2E4A1DE45AC", 1691956, 1443450864, "708639", 1443450864, "708639", null, "A712713", [ "{\"address\":\"6403 TINER TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78724\"}", "30.292618", "-97.638348", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Male", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712713", null ] ]
+, [ 1691957, "393782A6-DB58-4263-9463-D3CA2B6EB40B", 1691957, 1443450864, "708639", 1443450864, "708639", null, "A712730", [ "{\"address\":\"6013 PINO\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.188774", "-97.750689", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Gray Tabby", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712730", null ] ]
+, [ 1691958, "75C07464-3917-4490-B230-78EAEBE62856", 1691958, 1443450864, "708639", 1443450864, "708639", null, "A712375", [ "{\"address\":\"BECKER LN\",\"city\":\"DEL VALLE\",\"state\":\"\",\"zip\":\"78617\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Dog", "Australian Cattle Dog/Labrador Retriever", "White/Brown", "Neutered Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712375", null ] ]
+, [ 1691959, "63230F58-3C25-4B4B-A1C2-920CAA5CD41B", 1691959, 1443450864, "708639", 1443450864, "708639", null, "A712552", [ "{\"address\":\"11707 UNDERWOOD DR\",\"city\":\"\",\"state\":\"\",\"zip\":\"78610\"}", "30.071157", "-97.698362", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Great Pyrenees Mix", "White", "Unknown", "4 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712552", null ] ]
+, [ 1691960, "71321DCF-E072-4305-9A8B-096E2B19A78C", 1691960, 1443450864, "708639", 1443450864, "708639", null, "A712434", [ "{\"address\":\"BROOKSWOOD DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78721\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-23T00:00:00", "Dog", "Pit Bull Mix", "White/Black", "Spayed Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712434", null ] ]
+, [ 1691961, "E9D9BDC6-9978-4AD7-B340-C45D5DA1AF43", 1691961, 1443450864, "708639", 1443450864, "708639", null, "A712563", [ "{\"address\":\"101 LAKEWAY DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78734\"}", "30.374151", "-97.986896", null, false ], "No (contact for more info)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby/White", "Intact Male", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712563", null ] ]
+, [ 1691962, "32531414-C74A-44AC-94E4-E3E761DFEAE0", 1691962, 1443450864, "708639", 1443450864, "708639", null, "A712407", [ "{\"address\":\"7412 S GLENN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.196834", "-97.696967", null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712407", null ] ]
+, [ 1691963, "3F0D5B8B-DDD9-47C9-9269-7AC5913BCC2D", 1691963, 1443450864, "708639", 1443450864, "708639", null, "A712758", [ "{\"address\":\"3807 ARROW DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.203043", "-97.843086", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Medium Hair Mix", "Cream Tabby/White", "Intact Male", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712758", null ] ]
+, [ 1691964, "618CF04E-56AB-4FBD-AD96-0A5755431B84", 1691964, 1443450864, "708639", 1443450864, "708639", null, "A712748", [ "{\"address\":\"13021 LEGENDARY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.435753", "-97.730751", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712748", null ] ]
+, [ 1691965, "BC565014-8F9A-40FD-BD26-2A967DB7ADE3", 1691965, 1443450864, "708639", 1443450864, "708639", null, "A712712", [ "{\"address\":\"6403 TINER TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78724\"}", "30.292618", "-97.638348", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Torbie", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712712", null ] ]
+, [ 1691966, "346FF2E5-B279-4DAA-80EC-A9072C5756D8", 1691966, 1443450864, "708639", 1443450864, "708639", null, "A712737", [ "{\"address\":\"HARRIS REDGE BLVD\",\"city\":\"PFLUGERVILLE\",\"state\":\"\",\"zip\":\"78660\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Sable", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712737", null ] ]
+, [ 1691967, "3565CBB4-2DA9-487F-BE18-2FF7A1911C85", 1691967, 1443450864, "708639", 1443450864, "708639", null, "A712638", [ "{\"address\":\"\",\"city\":\"DITTMAR AUSTIN\",\"state\":\"\",\"zip\":\"78745\"}", "30.206782", "-97.798214", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Pit Bull Mix", "Red/White", "Intact Male", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712638", null ] ]
+, [ 1691968, "65B21EC9-8AF3-42B1-9486-D42FC17B8FF3", 1691968, 1443450864, "708639", 1443450864, "708639", null, "A712727", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.332223", "-97.703051", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Black/White", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712727", null ] ]
+, [ 1691969, "06B2AB84-A5EF-42CA-AC78-8BD6ED9FE951", 1691969, 1443450864, "708639", 1443450864, "708639", null, "A712757", [ "{\"address\":\"3807 ARROW DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.203043", "-97.843086", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Medium Hair Mix", "Calico", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712757", null ] ]
+, [ 1691970, "D15C0C5B-A876-4C0E-9CFF-8ACE00DAE703", 1691970, 1443450864, "708639", 1443450864, "708639", null, "A712699", [ "{\"address\":\"DEJA AVE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78747\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Tan", "Unknown", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712699", null ] ]
+, [ 1691971, "B3B4678D-7C4E-444B-8F09-51AE716C7D21", 1691971, 1443450865, "708639", 1443450865, "708639", null, "A712588", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.344358", "-97.705568", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby", "Intact Male", "2 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712588", null ] ]
+, [ 1691972, "EAC3239A-402A-48E3-8A0D-25B53F3C3AA0", 1691972, 1443450865, "708639", 1443450865, "708639", null, "A712668", [ "{\"address\":\"401 LITTLE TEXAS LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78745\"}", "30.200963", "-97.772347", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Black/White", "Neutered Male", "5 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712668", null ] ]
+, [ 1691973, "8C541DDA-2A54-4818-901F-1B03836EEA08", 1691973, 1443450865, "708639", 1443450865, "708639", null, "A712380", [ "{\"address\":\"4505 FRONTIER VALLEY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", "30.22958", "-97.79501", null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Neutered Male", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712380", null ] ]
+, [ 1691974, "D626F780-40D3-456D-9877-DCD07193632A", 1691974, 1443450865, "708639", 1443450865, "708639", null, "A712750", [ "{\"address\":\"13021 LEGENDARY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.435753", "-97.730751", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712750", null ] ]
+, [ 1691975, "B7D43946-EDAE-4EB6-B99A-3E8D94AEED37", 1691975, 1443450865, "708639", 1443450865, "708639", null, "A712570", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.378511", "-97.675352", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Medium Hair Mix", "Black", "Intact Male", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712570", null ] ]
+, [ 1691976, "DB90220D-98AA-4B73-9A4B-D82878CD7965", 1691976, 1443450865, "708639", 1443450865, "708639", null, "A712623", [ "{\"address\":\"7402 CREPE MYRTLE DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.164406", "-97.737454", null, false ], "No (contact for more info)", "2015-09-25T00:00:00", "Dog", "Toy Poodle Mix", "White", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712623", null ] ]
+, [ 1691977, "ED0615EB-CFE5-4851-AA93-B27B1A37D577", 1691977, 1443450865, "708639", 1443450865, "708639", null, "A712738", [ "{\"address\":\"CASPIAN DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Catahoula Mix", "Brown Merle/Blue Merle", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712738", null ] ]
+, [ 1691978, "0391F0D3-1537-4982-9EF3-4AE8CD4E2E37", 1691978, 1443450865, "708639", 1443450865, "708639", null, "A712669", [ "{\"address\":\"7500 BLESSING AVE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.331949", "-97.693032", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby", "Intact Male", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712669", null ] ]
+, [ 1691979, "77F208A9-B229-49E0-A7B6-2418E05DC50F", 1691979, 1443450865, "708639", 1443450865, "708639", null, "A712673", [ "{\"address\":\"ARROYO SECO\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78757\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Siamese Mix", "Seal Point", "Intact Female", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712673", null ] ]
+, [ 1691980, "094CBA1C-01BF-4BC0-A31A-FF2D46B95D58", 1691980, 1443450865, "708639", 1443450865, "708639", null, "A712585", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.344358", "-97.705568", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby/White", "Intact Female", "2 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712585", null ] ]
+, [ 1691981, "ABF95B69-504A-42EE-B3CD-234563517531", 1691981, 1443450865, "708639", 1443450865, "708639", null, "A712687", [ "{\"address\":\"10901 N LAMAR BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.37848", "-97.688327", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Dachshund Mix", "Tricolor", "Intact Male", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712687", null ] ]
+, [ 1691982, "CC20D099-E626-43AD-911B-543A2DF71C02", 1691982, 1443450865, "708639", 1443450865, "708639", null, "A712658", [ "{\"address\":\"S E IH35 FRONTAGE RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Tan", "Intact Male", "4 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712658", null ] ]
+, [ 1691983, "D44AAFD0-0EFB-44CF-BC8A-03961131FC84", 1691983, 1443450865, "708639", 1443450865, "708639", null, "A712661", [ "{\"address\":\"15008 FM\",\"city\":\"DEL VALLE\",\"state\":\"\",\"zip\":\"78617\"}", "30.111777", "-97.624853", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712661", null ] ]
+, [ 1691984, "80F0EB1E-44C4-437E-BC8C-C80280F9495A", 1691984, 1443450865, "708639", 1443450865, "708639", null, "A712646", [ "{\"address\":\"WHITSUN DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Pit Bull Mix", "Black/White", "Intact Male", "5 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712646", null ] ]
+, [ 1691985, "EBEC3DAA-7DF2-48C2-9EC7-187E2549B0C8", 1691985, 1443450865, "708639", 1443450865, "708639", null, "A712636", [ "{\"address\":\"ROUND MOUNTAIN\",\"city\":\"\",\"state\":\"\",\"zip\":\"78641\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Rottweiler Mix", "Black/Tan", "Intact Female", "7 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712636", null ] ]
+, [ 1691986, "ECC66763-FF80-4919-B371-8AE3A1808A32", 1691986, 1443450865, "708639", 1443450865, "708639", null, "A712354", [ "{\"address\":\"PEARCE RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78730\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Dog", "German Shepherd Mix", "White", "Neutered Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712354", null ] ]
+, [ 1691987, "1D58E594-9E6B-4936-BD13-D664EA256D65", 1691987, 1443450865, "708639", 1443450865, "708639", null, "A712586", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.344358", "-97.705568", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby/White", "Intact Male", "2 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712586", null ] ]
+, [ 1691988, "C013A543-F92F-4BF5-930A-41015A5A1C0C", 1691988, 1443450865, "708639", 1443450865, "708639", null, "A712648", [ "{\"address\":\"34TH ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78705\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Medium Hair Mix", "Black", "Intact Male", "7 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712648", null ] ]
+, [ 1691989, "9B70FA75-A495-4F04-A866-C81B621C3053", 1691989, 1443450865, "708639", 1443450865, "708639", null, "A712408", [ "{\"address\":\"7412 S GLENN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.196834", "-97.696967", null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712408", null ] ]
+, [ 1691990, "1BA1801B-4629-4470-907C-F7132334E7F3", 1691990, 1443450865, "708639", 1443450865, "708639", null, "A712616", [ "{\"address\":\"E RIVERSIDE DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Whippet/Chihuahua Shorthair", "White/Brown", "Neutered Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712616", null ] ]
+, [ 1691991, "7D48711E-73BE-4A1F-9F30-83810F53550B", 1691991, 1443450865, "708639", 1443450865, "708639", null, "A712590", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.344358", "-97.705568", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby", "Intact Male", "2 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712590", null ] ]
+, [ 1691992, "1C8B0399-564F-49D7-ACEF-F8E221586680", 1691992, 1443450865, "708639", 1443450865, "708639", null, "A712755", [ "{\"address\":\"3807 ARROW DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.203043", "-97.843086", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Medium Hair Mix", "Calico", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712755", null ] ]
+, [ 1691993, "117703CB-7633-4164-816A-CA9FADE2F936", 1691993, 1443450865, "708639", 1443450865, "708639", null, "A712717", [ "{\"address\":\"6705 CAPRIOLA\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78745\"}", "30.202534", "-97.798422", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "German Shepherd Mix", "Black/Tricolor", "Intact Male", "7 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712717", null ] ]
+, [ 1691994, "2EFCCBB1-9E4C-4BA2-A440-4CADEF09CC2A", 1691994, 1443450865, "708639", 1443450865, "708639", null, "A712728", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.332223", "-97.703051", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Black/White", "Intact Female", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712728", null ] ]
+, [ 1691995, "C46FC366-CC93-43C4-9898-3E1D9CD923AF", 1691995, 1443450865, "708639", 1443450865, "708639", null, "A712579", [ "{\"address\":\"5203 BOGEY CT\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.194634", "-97.740152", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Pit Bull Mix", "Tan", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712579", null ] ]
+, [ 1691996, "79FD7ACE-4375-496B-B1C5-4981750E6BDB", 1691996, 1443450865, "708639", 1443450865, "708639", null, "A712421", [ "{\"address\":\"6600 ELM CREEK DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.187174", "-97.763268", null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "White/Blue Tabby", "Intact Male", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712421", null ] ]
+, [ 1691997, "4B0324E5-C4F0-48FB-B249-91C7FC886872", 1691997, 1443450865, "708639", 1443450865, "708639", null, "A712680", [ "{\"address\":\"E 5TH ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Longhair Mix", "Calico", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712680", null ] ]
+, [ 1691998, "D6062462-CE30-426B-9431-89B3132D7BE0", 1691998, 1443450865, "708639", 1443450865, "708639", null, "A712426", [ "{\"address\":\"9220 NORTH PLZ\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.354523", "-97.685611", null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Dog", "Great Pyrenees Mix", "White", "Neutered Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712426", null ] ]
+, [ 1691999, "DC168FD1-21F3-4409-950B-B3DAB99F5373", 1691999, 1443450865, "708639", 1443450865, "708639", null, "A712368", [ "{\"address\":\"5500 CAMP FIRE TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.222108", "-97.858065", null, false ], "Yes (come to the shelter)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby/White", "Neutered Male", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712368", null ] ]
+, [ 1692000, "4F5AB112-7BCB-4316-804E-8A47DDC13A2B", 1692000, 1443450865, "708639", 1443450865, "708639", null, "A712701", [ "{\"address\":\"7201 LEVANDER LOOP\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", "30.251079", "-97.691727", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Black Brindle", "Intact Female", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712701", null ] ]
+, [ 1692001, "F3FCBF56-D243-49FE-A7AA-5C980B217EAA", 1692001, 1443450865, "708639", 1443450865, "708639", null, "A707739", [ "{\"address\":\"N B R REYNOLDS DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78703\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue", "Spayed Female", "4 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A707739", null ] ]
+, [ 1692002, "01FC719C-F9F5-4743-8C6F-C122C84DF56D", 1692002, 1443450865, "708639", 1443450865, "708639", null, "A712602", [ "{\"address\":\"THAXTON RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78747\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Chinese Sharpei Mix", "Tan/White", "Neutered Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712602", null ] ]
+, [ 1692003, "792BDC67-BB5D-484D-99CD-E0D85A853501", 1692003, 1443450865, "708639", 1443450865, "708639", null, "A712620", [ "{\"address\":\"BURLESON RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Brown/White", "Neutered Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712620", null ] ]
+, [ 1692004, "F187653D-866C-4000-ABBD-BA726DBA11DB", 1692004, 1443450865, "708639", 1443450865, "708639", null, "A712678", [ "{\"address\":\"E 5TH ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Longhair Mix", "Black/White", "Intact Female", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712678", null ] ]
+, [ 1692005, "785592FC-C8F7-47D6-AE7F-57103DE4CF2D", 1692005, 1443450865, "708639", 1443450865, "708639", null, "A712589", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.344358", "-97.705568", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby", "Intact Male", "2 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712589", null ] ]
+, [ 1692006, "2E07ED86-EEC7-44E7-947D-6F7CEAC5921B", 1692006, 1443450865, "708639", 1443450865, "708639", null, "A712423", [ "{\"address\":\"6600 ELM CREEK DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.187174", "-97.763268", null, false ], "No (contact for more info)", "2015-09-22T00:00:00", "Cat", "Domestic Shorthair Mix", "White/Blue Tabby", "Intact Male", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712423", null ] ]
+, [ 1692007, "5F2D2C79-95BE-4645-A8C9-B4CB55877163", 1692007, 1443450865, "708639", 1443450865, "708639", null, "A712763", [ "{\"address\":\"\",\"city\":\"WILL ROGERS LN AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.426879", "-97.713462", null, false ], "No (contact for more info)", "2015-09-27T00:00:00", "Dog", "Pit Bull Mix", "Black Brindle/White", "Intact Female", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712763", null ] ]
+, [ 1692008, "FF516C49-F3C8-4773-BFEA-E9AED3B42C02", 1692008, 1443450865, "708639", 1443450865, "708639", null, "A712744", [ "{\"address\":\"8919 COLONY CREEK DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78758\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "White/Brown Tabby", "Intact Male", "6 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712744", null ] ]
+, [ 1692009, "EBF30820-FA2E-4769-BEEC-DCC4F255752C", 1692009, 1443450865, "708639", 1443450865, "708639", null, "A712754", [ "{\"address\":\"13021 LEGENDARY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.435753", "-97.730751", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Male", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712754", null ] ]
+, [ 1692010, "95D5CF2C-E54B-4425-9004-7BAD6699A17E", 1692010, 1443450865, "708639", 1443450865, "708639", null, "A712582", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.344358", "-97.705568", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712582", null ] ]
+, [ 1692011, "62E35705-4366-4207-B0B9-4EF06644CE59", 1692011, 1443450865, "708639", 1443450865, "708639", null, "A712666", [ "{\"address\":\"MONTOPOLIS DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Pit Bull Mix", "Black/White", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712666", null ] ]
+, [ 1692012, "594C99FA-A0FF-4AFD-AA26-CB7219763E51", 1692012, 1443450865, "708639", 1443450865, "708639", null, "A712462", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78758\"}", "30.384311", "-97.706726", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Black/White", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712462", null ] ]
+, [ 1692013, "6C7BDA8C-2686-4784-8F3F-755D633167E9", 1692013, 1443450865, "708639", 1443450865, "708639", null, "A712714", [ "{\"address\":\"6403 TINER TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78724\"}", "30.292618", "-97.638348", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Black Smoke/White", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712714", null ] ]
+, [ 1692014, "B35AEC96-23B9-4938-A1E5-2940D7C2AFEF", 1692014, 1443450865, "708639", 1443450865, "708639", null, "A712679", [ "{\"address\":\"E 5TH ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Longhair Mix", "Brown Tabby", "Unknown", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712679", null ] ]
+, [ 1692015, "F8CEA4A6-371D-4453-AEA1-706C4869FCAF", 1692015, 1443450865, "708639", 1443450865, "708639", null, "A712708", [ "{\"address\":\"MOPAC\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78757\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712708", null ] ]
+, [ 1692016, "C27CC8E1-468B-4342-9A35-F523BFBBC2FE", 1692016, 1443450865, "708639", 1443450865, "708639", null, "A712626", [ "{\"address\":\"4011 GEMSTONE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.207224", "-97.844117", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Calico", "Intact Female", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712626", null ] ]
+, [ 1692017, "397B6016-4990-4E82-A261-7ADEC5895B01", 1692017, 1443450865, "708639", 1443450865, "708639", null, "A712553", [ "{\"address\":\"ULLMAN DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78734\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Sable/Brown", "Spayed Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712553", null ] ]
+, [ 1692018, "A8FF0653-85A5-4B9C-A356-409A77DE410A", 1692018, 1443450865, "708639", 1443450865, "708639", null, "A712660", [ "{\"address\":\"9607 RESEARCH BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78759\"}", "30.388607", "-97.743702", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Neutered Male", "8 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712660", null ] ]
+, [ 1692019, "343550A0-7EBF-46C3-9CA6-7A00E8D7478C", 1692019, 1443450865, "708639", 1443450865, "708639", null, "A712741", [ "{\"address\":\"2900 SUNRIDGE DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", "30.220613", "-97.726057", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Labrador Retriever Mix", "Tan/White", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712741", null ] ]
+, [ 1692020, "DA6EDA46-CAAC-429B-A149-633570698906", 1692020, 1443450865, "708639", 1443450865, "708639", null, "A712736", [ "{\"address\":\"HARRIS REDGE BLVD\",\"city\":\"PFLUGERVILLE\",\"state\":\"\",\"zip\":\"78660\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Black/White", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712736", null ] ]
+, [ 1692021, "756F09D7-92DF-4826-BF77-A6D6238759F8", 1692021, 1443450865, "708639", 1443450865, "708639", null, "A712617", [ "{\"address\":\"9300 NORTHGATE BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78758\"}", "30.372254", "-97.715422", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Black", "Intact Female", "12 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712617", null ] ]
+, [ 1692022, "72D5DF42-6B7D-49E7-847A-EA1158DD928D", 1692022, 1443450865, "708639", 1443450865, "708639", null, "A712742", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", "30.186349", "-97.738673", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Manchester Terrier Mix", "Black/Tan", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712742", null ] ]
+, [ 1692023, "58439F64-1D35-49A5-8FB4-5DFAD725CA47", 1692023, 1443450865, "708639", 1443450865, "708639", null, "A712630", [ "{\"address\":\"1923 WILLOW CREEK DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", "30.233571", "-97.728535", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Dog", "Havanese Mix", "Brown/Buff", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712630", null ] ]
+, [ 1692024, "83BF9D21-599C-4B22-BEEC-8A17C1032BD0", 1692024, 1443450865, "708639", 1443450865, "708639", null, "A712734", [ "{\"address\":\"CASPIAN DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Brittany Mix", "Tan/White", "Spayed Female", "8 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712734", null ] ]
+, [ 1692025, "60BC21A0-F934-49A7-B28C-B5DA2D4D4564", 1692025, 1443450865, "708639", 1443450865, "708639", null, "A712724", [ "{\"address\":\"2501 WICKERSHAM LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", "30.223547", "-97.726364", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Longhair Mix", "Brown Tabby", "Neutered Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712724", null ] ]
+, [ 1692026, "85790850-ED8B-43B2-A5A8-E4C54FF85E6A", 1692026, 1443450865, "708639", 1443450865, "708639", null, "A712719", [ "{\"address\":\"600 W CADDO ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.385362", "-97.682833", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue Tabby/White", "Intact Male", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712719", null ] ]
+, [ 1692027, "5F5F8E49-5FA0-47CD-915E-31F257ADA138", 1692027, 1443450865, "708639", 1443450865, "708639", null, "A712715", [ "{\"address\":\"1000 WAGON TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78758\"}", "30.379378", "-97.693059", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Black/White", "Unknown", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712715", null ] ]
+, [ 1692028, "C6DFE417-E958-43A8-BC29-EF3675522D4D", 1692028, 1443450865, "708639", 1443450865, "708639", null, "A712743", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78724\"}", "30.295025", "-97.622435", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Pit Bull Mix", "White/Black", "Intact Female", "5 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712743", null ] ]
+, [ 1692029, "B03B43AA-A657-4CEA-B5DC-71F80126D8F5", 1692029, 1443450865, "708639", 1443450865, "708639", null, "A712572", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.378511", "-97.675352", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Medium Hair Mix", "White/Orange", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712572", null ] ]
+, [ 1692030, "FB676922-623A-493E-BFF7-4D687883C62F", 1692030, 1443450865, "708639", 1443450865, "708639", null, "A712682", [ "{\"address\":\"IH35\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Rat Terrier Mix", "Brown/Black", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712682", null ] ]
+, [ 1692031, "DEABF439-5CF3-4B83-845E-FE27C6D8A72D", 1692031, 1443450865, "708639", 1443450865, "708639", null, "A712723", [ "{\"address\":\"GARDNER RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78705\"}", null, null, null, false ], "No (contact for more info)", "2015-09-27T00:00:00", "Dog", "Labrador Retriever/Border Collie", "Yellow/White", "Intact Female", "5 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712723", null ] ]
+, [ 1692032, "83DB4CF1-A6C5-45F1-AC79-7B43F35CCC36", 1692032, 1443450865, "708639", 1443450865, "708639", null, "A712749", [ "{\"address\":\"13021 LEGENDARY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.435753", "-97.730751", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712749", null ] ]
+, [ 1692033, "69433B12-6641-4644-AF3B-B2485725C897", 1692033, 1443450865, "708639", 1443450865, "708639", null, "A712627", [ "{\"address\":\"4011 GEMSTONE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.207224", "-97.844117", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Medium Hair Mix", "Black/White", "Intact Female", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712627", null ] ]
+, [ 1692034, "FA62F600-4FBA-48CF-9B58-7F0FE4150595", 1692034, 1443450865, "708639", 1443450865, "708639", null, "A712746", [ "{\"address\":\"PALO BLANCO LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78744\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Miniature Schnauzer Mix", "Gray/White", "Intact Male", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712746", null ] ]
+, [ 1692035, "6E48DE79-9524-4BCE-AA02-BC1160F8A051", 1692035, 1443450865, "708639", 1443450865, "708639", null, "A712753", [ "{\"address\":\"13021 LEGENDARY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.435753", "-97.730751", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Female", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712753", null ] ]
+, [ 1692036, "97D1FCCB-C40A-465A-B038-AA25903A957C", 1692036, 1443450865, "708639", 1443450865, "708639", null, "A712635", [ "{\"address\":\"2801 WELLS BRANCH PKWY\",\"city\":\"\",\"state\":\"\",\"zip\":\"78728\"}", "30.441555", "-97.689671", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Spayed Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712635", null ] ]
+, [ 1692037, "D8CB1AE8-12AA-432F-80A2-60082D595496", 1692037, 1443450865, "708639", 1443450865, "708639", null, "A712685", [ "{\"address\":\"3700 SOUTHRIDGE DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78704\"}", "30.232569", "-97.777455", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Neutered Male", "8 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712685", null ] ]
+, [ 1692038, "77154205-26BF-4C02-876C-9CD785EDFE14", 1692038, 1443450865, "708639", 1443450865, "708639", null, "A712747", [ "{\"address\":\"BRAKER\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Medium Hair Mix", "Black", "Intact Female", "4 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712747", null ] ]
+, [ 1692039, "E389200C-F773-4D72-82E5-CC7570E1E69B", 1692039, 1443450865, "708639", 1443450865, "708639", null, "A712657", [ "{\"address\":\"409 E BEN WHITE BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78704\"}", "30.219919", "-97.75898", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Intact Male", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712657", null ] ]
+, [ 1692040, "86C0A082-1A28-40E5-9A98-2BFB527FAD60", 1692040, 1443450865, "708639", 1443450865, "708639", null, "A712672", [ "{\"address\":\"6263 MCNEIL DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78729\"}", "30.441833", "-97.747609", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Spayed Female", "3 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712672", null ] ]
+, [ 1692041, "E9A53265-F285-49D1-935B-5E1DFFB91BF7", 1692041, 1443450865, "708639", 1443450865, "708639", null, "A712722", [ "{\"address\":\"401 BATTLE BEND BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78745\"}", "30.205559", "-97.769384", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Brown Tabby", "Neutered Male", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712722", null ] ]
+, [ 1692042, "1BB54859-8A18-4CF9-B1CD-00FE0632CB04", 1692042, 1443450865, "708639", 1443450865, "708639", null, "A704220", [ "{\"address\":\"1016 W STASSNEY LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78745\"}", "30.210331", "-97.786076", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Chihuahua Shorthair Mix", "Brown/White", "Neutered Male", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A704220", null ] ]
+, [ 1692043, "AFC2005C-19FF-49F9-907D-12C1C67A6E1C", 1692043, 1443450865, "708639", 1443450865, "708639", null, "A712655", [ "{\"address\":\"409 E BEN WHITE BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78704\"}", "30.219919", "-97.75898", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Male", "2 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712655", null ] ]
+, [ 1692044, "8F01E218-76EB-4ACB-B8CC-57F6441728E4", 1692044, 1443450865, "708639", 1443450865, "708639", null, "A712740", [ "{\"address\":\"2900 SUNRIDGE DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", "30.220613", "-97.726057", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Labrador Retriever Mix", "Tan/Red Tick", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712740", null ] ]
+, [ 1692045, "BD383F41-D1E4-4EDF-9F85-9A26BFAF3FD1", 1692045, 1443450865, "708639", 1443450865, "708639", null, "A712720", [ "{\"address\":\"600 W CADDO ST\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.385362", "-97.682833", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Blue", "Unknown", "3 months", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712720", null ] ]
+, [ 1692046, "EDF169D5-AC26-4100-9424-4A79B063CB01", 1692046, 1443450865, "708639", 1443450865, "708639", null, "A712665", [ "{\"address\":\"AVEBURY CIR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Pit Bull Mix", "Fawn/White", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712665", null ] ]
+, [ 1692047, "5597165F-C279-478F-90DD-5B49F40970BA", 1692047, 1443450865, "708639", 1443450865, "708639", null, "A712645", [ "{\"address\":\"FAIRWOOD RD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78722\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Dalmatian Mix", "White/Black", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712645", null ] ]
+, [ 1692048, "024FD59E-E55E-41CA-B1F9-28D24F704CBD", 1692048, 1443450865, "708639", 1443450865, "708639", null, "A712575", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.378511", "-97.675352", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Medium Hair Mix", "Calico", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712575", null ] ]
+, [ 1692049, "A397A964-E113-497B-939D-A8C8C53CBB13", 1692049, 1443450865, "708639", 1443450865, "708639", null, "A712759", [ "{\"address\":\"3807 ARROW DR\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.203043", "-97.843086", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Medium Hair Mix", "Brown Tabby", "Intact Female", "4 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712759", null ] ]
+, [ 1692050, "D4BE5164-1B9B-4558-957E-731BCEE34A56", 1692050, 1443450865, "708639", 1443450865, "708639", null, "A712670", [ "{\"address\":\"VARGAS\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Labrador Retriever Mix", "Black", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712670", null ] ]
+, [ 1692051, "A32F0488-3A0D-45F9-A7AB-CB35711E1CE5", 1692051, 1443450865, "708639", 1443450865, "708639", null, "A712695", [ "{\"address\":\"SURRENDER AVE\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78728\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Boxer Mix", "Red/Black", "Neutered Male", "10 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712695", null ] ]
+, [ 1692052, "3AAF0107-4A4A-4B92-A799-3B30C1AA1C64", 1692052, 1443450865, "708639", 1443450865, "708639", null, "A712574", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78753\"}", "30.378511", "-97.675352", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Medium Hair Mix", "Blue", "Intact Female", "3 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712574", null ] ]
+, [ 1692053, "E323A4BE-0DCA-40FC-9458-277C345403DE", 1692053, 1443450865, "708639", 1443450865, "708639", null, "A712725", [ "{\"address\":\"360 BEE\",\"city\":\"CAVES AUSTIN\",\"state\":\"\",\"zip\":\"78746\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Great Pyrenees Mix", "White", "Neutered Male", "7 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712725", null ] ]
+, [ 1692054, "D6EF4D5F-8179-4895-81C5-F0B826345900", 1692054, 1443450865, "708639", 1443450865, "708639", null, "A712618", [ "{\"address\":\"\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78702\"}", "30.264271", "-97.71608", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Black", "Unknown", "3 days", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712618", null ] ]
+, [ 1692055, "518303AA-BA36-41FF-B614-4DD1AE542917", 1692055, 1443450865, "708639", 1443450865, "708639", null, "A712700", [ "{\"address\":\"5733 ABILIENE TRL\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78749\"}", "30.222706", "-97.862729", null, false ], "No (contact for more info)", "2015-09-26T00:00:00", "Dog", "Pit Bull Mix", "White", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712700", null ] ]
+, [ 1692056, "EF6F7F35-D26F-45FA-9058-DD77F33ED810", 1692056, 1443450865, "708639", 1443450865, "708639", null, "A712651", [ "{\"address\":\"4550 MUELLER BLVD\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78723\"}", "30.296834", "-97.708058", null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Dachshund Mix", "Blue Merle/Tan", "Intact Female", "4 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712651", null ] ]
+, [ 1692057, "C6FA8CB8-6740-4A35-8515-C28286B053E9", 1692057, 1443450865, "708639", 1443450865, "708639", null, "A712622", [ "{\"address\":\"535 AND WOLFE LN\",\"city\":\"\",\"state\":\"\",\"zip\":\"78612\"}", null, null, null, false ], "No (contact for more info)", "2015-09-25T00:00:00", "Dog", "Anatolian Shepherd Mix", "Tan/White", "Intact Female", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712622", null ] ]
+, [ 1692058, "9623D970-C9DD-411E-946D-04185FFEE0C8", 1692058, 1443450865, "708639", 1443450865, "708639", null, "A712471", [ "{\"address\":\"CHESTER LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78750\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-23T00:00:00", "Dog", "Basset Hound Mix", "Brown/White", "Spayed Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712471", null ] ]
+, [ 1692059, "B5280149-D725-40AB-AE85-A57B9B06B371", 1692059, 1443450865, "708639", 1443450865, "708639", null, "A712761", [ "{\"address\":\"FITZHUGH RD W\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78736\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Manchester Terrier Mix", "Black/Tan", "Intact Male", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712761", null ] ]
+, [ 1692060, "9636BDBF-4F51-42AF-AC57-E1C2E74965FB", 1692060, 1443450865, "708639", 1443450865, "708639", null, "A712583", [ "{\"address\":\"124 W ANDERSON LN\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78752\"}", "30.344358", "-97.705568", null, false ], "Yes (come to the shelter)", "2015-09-25T00:00:00", "Cat", "Domestic Shorthair Mix", "Cream Tabby/White", "Intact Female", "2 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712583", null ] ]
+, [ 1692061, "298F5822-C158-4EA0-8785-197817FC0D9D", 1692061, 1443450865, "708639", 1443450865, "708639", null, "A712726", [ "{\"address\":\"360 BEE\",\"city\":\"CAVES AUSTIN\",\"state\":\"\",\"zip\":\"78746\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Dog", "Boxer Mix", "Tricolor", "Intact Male", "2 years", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712726", null ] ]
+, [ 1692062, "DD143BA8-3A8E-4329-8E53-94DC8B389D71", 1692062, 1443450865, "708639", 1443450865, "708639", null, "A712751", [ "{\"address\":\"13021 LEGENDARY\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78727\"}", "30.435753", "-97.730751", null, false ], "Yes (come to the shelter)", "2015-09-27T00:00:00", "Cat", "Domestic Shorthair Mix", "Orange Tabby", "Intact Male", "5 weeks", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712751", null ] ]
+, [ 1692063, "D41288B0-C61B-4E53-B7AF-07C35095F7FC", 1692063, 1443450865, "708639", 1443450865, "708639", null, "A712671", [ "{\"address\":\"VARGAS\",\"city\":\"AUSTIN\",\"state\":\"\",\"zip\":\"78741\"}", null, null, null, false ], "Yes (come to the shelter)", "2015-09-26T00:00:00", "Dog", "Labrador Retriever Mix", "Chocolate", "Intact Female", "1 year", [ "http://www.petharbor.com/pet.asp?uaid=ASTN.A712671", null ] ]
+ ]
+}
